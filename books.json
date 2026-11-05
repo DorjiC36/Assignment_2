@@ -1,0 +1,23 @@
+[
+    {
+        "book_id": "123",
+        "title": "You are alive",
+        "author": "John",
+        "category": "Other",
+        "quantity": 1,
+        "issued": []
+    },
+    {
+        "book_id": "2",
+        "title": "Mother",
+        "author": "Dema",
+        "category": "Fiction",
+        "quantity": 6,
+        "issued": [
+            {
+                "borrower": "Dorji",
+                "due_date": "2026-11-19"
+            }
+        ]
+    }
+]

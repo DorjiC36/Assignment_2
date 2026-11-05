@@ -1,0 +1,38 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Mother",
+            "author": "Dorji",
+            "category": "Fiction",
+            "quantity": 12,
+            "available": 12
+        },
+        {
+            "id": 2,
+            "title": "Freak's world",
+            "author": "John",
+            "category": "Fiction",
+            "quantity": 1,
+            "available": 1
+        }
+    ],
+    "loans": [
+        {
+            "book_id": 2,
+            "student_id": "08230118",
+            "borrower": "Dorji Choden",
+            "status": "Returned"
+        }
+    ],
+    "students": [
+        {
+            "student_id": "08230118",
+            "name": "Dorji Choden",
+            "gender": "Female",
+            "class": "B.Ed IT",
+            "section": "D",
+            "contact": "77459784"
+        }
+    ]
+}
