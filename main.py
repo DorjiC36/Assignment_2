@@ -215,6 +215,10 @@ class StudentDialog(QDialog):
 
     def validate(self):
         student_id = self.student_id.text().strip()
+        name = self.name.text().strip()
+        student_class = self.student_class.text().strip()
+        section = self.section.currentText().strip()
+        contact = self.contact.text().strip()
 
         if not student_id:
             QMessageBox.warning(
@@ -223,10 +227,31 @@ class StudentDialog(QDialog):
             )
             return
 
-        if not self.name.text().strip():
+        if not name:
             QMessageBox.warning(
                 self, "Missing Information",
                 "Please enter the student's full name."
+            )
+            return
+
+        if not student_class:
+            QMessageBox.warning(
+                self, "Missing Information",
+                "Please enter the student's class."
+            )
+            return
+
+        if not section:
+            QMessageBox.warning(
+                self, "Missing Information",
+                "Please enter the student's section."
+            )
+            return
+
+        if not contact:
+            QMessageBox.warning(
+                self, "Missing Information",
+                "Please enter the student's contact number."
             )
             return
 

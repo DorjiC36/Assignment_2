@@ -1,23 +1,37 @@
 {
     "books": [
         {
-            "id": 1,
-            "title": "Mother",
-            "author": "Dorji",
-            "category": "Fiction",
-            "quantity": 12,
-            "available": 12
-        },
-        {
             "id": 2,
             "title": "Freak's world",
             "author": "John",
             "category": "Fiction",
             "quantity": 1,
             "available": 1
+        },
+        {
+            "id": 3,
+            "title": "Morning sun",
+            "author": "Kinzang",
+            "category": "Fiction",
+            "quantity": 9,
+            "available": 9
+        },
+        {
+            "id": 4,
+            "title": "The action of love",
+            "author": "Dee",
+            "category": "Fiction",
+            "quantity": 1,
+            "available": 1
         }
     ],
     "loans": [
+        {
+            "book_id": 2,
+            "student_id": "08230118",
+            "borrower": "Dorji Choden",
+            "status": "Returned"
+        },
         {
             "book_id": 2,
             "student_id": "08230118",
@@ -33,6 +47,14 @@
             "class": "B.Ed IT",
             "section": "D",
             "contact": "77459784"
+        },
+        {
+            "student_id": "08230112",
+            "name": "Kezang Dema",
+            "gender": "Female",
+            "class": "B.Ed IT",
+            "section": "A",
+            "contact": "77653789"
         }
     ]
 }
